@@ -30,7 +30,7 @@ int online_input(int today){
         cost += z[i];
     }
     cost += B*x;
-    cout << "Cost: " << cost << "\n";
+    cout << "Cost Function: " << cost << "\n";
     return day;
 }
 
@@ -52,7 +52,7 @@ void offline_input(int days){
         cost += z[i];
     }
     cost += B*x;
-    cout << "Cost: " << cost << "\n";
+    cout << "Cost Function: " << cost << "\n";
     return;
 }
 
